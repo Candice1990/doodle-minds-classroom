@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lesson-01",
+    "title": "Sequence",
+    "published": true,
+    "worksheet": "output/pdf/lesson-01-sequence-worksheet.pdf",
+    "status": "ready"
+  },
+  {
+    "id": "lesson-02",
+    "title": "Missing instruction",
+    "published": false,
+    "worksheet": "output/pdf/lesson-02-missing-instruction-worksheet.pdf",
+    "status": "ready"
+  },
+  {
+    "id": "lesson-03",
+    "title": "Directions",
+    "published": false,
+    "worksheet": "output/pdf/lesson-03-directions-worksheet.pdf",
+    "status": "ready"
+  },
+  {
+    "id": "lesson-04",
+    "title": "Debugging",
+    "published": false,
+    "worksheet": "output/pdf/lesson-04-debugging-worksheet.pdf",
+    "status": "draft"
+  }
+]

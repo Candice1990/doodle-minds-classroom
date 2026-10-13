@@ -1,0 +1,9 @@
+.missing-card{color:#bc866a}.sequence-cell:has(.missing-card){background:#fff0df;border-color:#d5a178}.repair-move{animation:machine-move 1.35s ease-in-out both}.water-fall{animation:water-flow .35s ease-in-out 4}.cutter{animation:cutter-press 1.4s ease-in-out both}.icing-drop{animation:icing-flow 1.4s ease-in-out both}.perform.op-wave .wave-arm{transform-origin:53px 2px;animation:wave .4s ease-in-out 3}.focus .motion{animation:none}.slow .repair-move,.slow .cutter,.slow .icing-drop{animation-duration:2.16s}.slow .water-fall{animation-duration:.56s}.repair-scene.perform .pip-body{animation:none}.repair-scene .halloween-decor{opacity:.8}
+@keyframes water-flow{from{opacity:.3;transform:translateY(-4px)}to{opacity:1;transform:translateY(3px)}}@keyframes cutter-press{0%,100%{transform:translateY(0)}50%{transform:translateY(65px)}}@keyframes icing-flow{0%{opacity:0;transform:translateY(-8px)}35%{opacity:1}85%{opacity:1;transform:translateY(53px)}100%{opacity:0;transform:translateY(60px)}}
+#hide-card{font-size:11px;padding:6px 9px}body[data-lesson-stage="7"] #controls>.sequence-strip{min-height:64px}body[data-lesson-stage="7"] .response{font-size:12px}body[data-lesson-stage="7"] .actual-result svg{height:36px;width:36px;flex-basis:36px}
+@media(prefers-reduced-motion:reduce){.repair-move,.water-fall,.cutter,.icing-drop{animation:none}.repair-move{transform:none}}
+
+@media(min-width:1000px) and (min-height:701px){body:not([data-lesson-stage="7"]) .sequence-cell svg{width:92px;height:92px}body:not([data-lesson-stage="7"]) #controls>.sequence-strip{min-height:126px}}
+
+.cutter-lift{animation:cutter-lift .7s ease-out both}.slow .cutter-lift{animation-duration:1.12s}@keyframes cutter-lift{from{transform:translateY(65px)}to{transform:translateY(0)}}
+@media(min-width:1000px) and (max-height:700px){body[data-lesson-stage="7"] .sequence-cell svg{width:36px;height:36px}body[data-lesson-stage="7"] .sequence-cell>button:first-child{padding:3px 2px;gap:2px}}
